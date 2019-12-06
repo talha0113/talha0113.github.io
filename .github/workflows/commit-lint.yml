@@ -23,7 +23,7 @@ jobs:
 
 
 
-        uses: wagoid/commitlint-github-action@v1.2.3
+        uses: wagoid/commitlint-github-action@master
 
 
 
