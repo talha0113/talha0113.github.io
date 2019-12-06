@@ -7,4 +7,4 @@
 
 # Resume
 
-Resume built with Angular 8
+Resume built with Angular 8.2.x
