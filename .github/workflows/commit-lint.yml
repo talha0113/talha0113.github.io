@@ -3,7 +3,7 @@ name: commit-lint
 on:
   pull_request:
     branches:
-      - develop
+      - developq
 
 jobs:
   
@@ -20,7 +20,11 @@ jobs:
         
       - name: lint
 
-        uses: wagoid/commitlint-github-action@v1.2.3
+
+
+
+        uses: wagoid/commitlint-github-action@master
+
 
 
 
