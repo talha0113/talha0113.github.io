@@ -3,7 +3,7 @@ name: commit-lint
 on:
   pull_request:
     branches:
-      - developq
+      - develop
 
 jobs:
   
@@ -16,7 +16,7 @@ jobs:
     steps:
     
       - name: checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v1
         
       - name: lint
 
