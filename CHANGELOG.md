@@ -1,3 +1,15 @@
+# 1.0.0 (2019-12-06)
+
+### Features
+
+- **application:** base structure ([b5ef6a9](https://github.com/talha0113/talha0113.github.io/commit/b5ef6a9))
+- **application:** base structure ([fc87fe0](https://github.com/talha0113/talha0113.github.io/commit/fc87fe0))
+- **application:** base structure ([f7fc7c4](https://github.com/talha0113/talha0113.github.io/commit/f7fc7c4))
+- **application:** base structure ([8f4c18e](https://github.com/talha0113/talha0113.github.io/commit/8f4c18e))
+- **release:** commit analyzer ([ed1bd0d](https://github.com/talha0113/talha0113.github.io/commit/ed1bd0d))
+- **workflow:** check out version 1 ([bc0c9be](https://github.com/talha0113/talha0113.github.io/commit/bc0c9be))
+- **workflow:** commit lint disable ([6a9a18a](https://github.com/talha0113/talha0113.github.io/commit/6a9a18a))
+
 ## [1.8.5](https://github.com/talha0113/talha0113.github.io/compare/v1.8.4...v1.8.5) (2019-11-29)
 
 ### Bug Fixes
