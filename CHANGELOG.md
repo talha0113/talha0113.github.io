@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/talha0113/talha0113.github.io/compare/v1.0.0...v1.1.0) (2019-12-06)
+
+### Features
+
+- **workflow:** check out v1 ([70d6e60](https://github.com/talha0113/talha0113.github.io/commit/70d6e60))
+
 # 1.0.0 (2019-12-06)
 
 ### Features
