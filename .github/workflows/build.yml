@@ -90,4 +90,4 @@ jobs:
         if: github.ref == 'refs/heads/develop'
         shell: pwsh
         run: |
-          ${{ steps.semantic-release.outputs.release_tag }}    
+          ${{ release_tag }}    
