@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/talha0113/talha0113.github.io/compare/v1.2.0...v1.2.1) (2019-12-07)
+
+### Bug Fixes
+
+- **release:** release number for steps ([9ed9b83](https://github.com/talha0113/talha0113.github.io/commit/9ed9b83))
+
 # [1.2.0](https://github.com/talha0113/talha0113.github.io/compare/v1.1.0...v1.2.0) (2019-12-07)
 
 ### Features
