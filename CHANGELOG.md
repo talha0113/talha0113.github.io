@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/talha0113/talha0113.github.io/compare/v1.2.2...v1.2.3) (2019-12-07)
+
+### Bug Fixes
+
+- **release:** output variable ([ef46ad5](https://github.com/talha0113/talha0113.github.io/commit/ef46ad5))
+
 ## [1.2.2](https://github.com/talha0113/talha0113.github.io/compare/v1.2.1...v1.2.2) (2019-12-07)
 
 ### Bug Fixes
