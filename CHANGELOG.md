@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/talha0113/talha0113.github.io/compare/v1.2.1...v1.2.2) (2019-12-07)
+
+### Bug Fixes
+
+- **release:** env variable ([2fb4067](https://github.com/talha0113/talha0113.github.io/commit/2fb4067))
+- **workflow:** env variable ([4a42e37](https://github.com/talha0113/talha0113.github.io/commit/4a42e37))
+- **workflow:** env variable ([b91372e](https://github.com/talha0113/talha0113.github.io/commit/b91372e))
+
 ## [1.2.1](https://github.com/talha0113/talha0113.github.io/compare/v1.2.0...v1.2.1) (2019-12-07)
 
 ### Bug Fixes
