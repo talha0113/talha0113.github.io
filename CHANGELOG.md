@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/talha0113/talha0113.github.io/compare/v1.1.0...v1.2.0) (2019-12-07)
+
+### Features
+
+- **readme:** angular version 8 ([c37c10a](https://github.com/talha0113/talha0113.github.io/commit/c37c10a))
+- **workflow:** commit lint ([1d573be](https://github.com/talha0113/talha0113.github.io/commit/1d573be))
+
 # [1.1.0](https://github.com/talha0113/talha0113.github.io/compare/v1.0.0...v1.1.0) (2019-12-06)
 
 ### Features
