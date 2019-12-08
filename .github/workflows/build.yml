@@ -94,7 +94,7 @@ jobs:
 
       - name: github-release
         id: github-release
-        if: ${{ steps.semantic-release.outputs.release_tag }} != null
+        if: steps.semantic-release.outputs.release_tag != null
         uses: actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
