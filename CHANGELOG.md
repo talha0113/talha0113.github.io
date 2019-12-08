@@ -1,3 +1,9 @@
+## [1.2.6](https://github.com/talha0113/talha0113.github.io/compare/v1.2.5...v1.2.6) (2019-12-08)
+
+### Bug Fixes
+
+- **workflow:** github release ([96d3724](https://github.com/talha0113/talha0113.github.io/commit/96d3724))
+
 ## [1.2.5](https://github.com/talha0113/talha0113.github.io/compare/v1.2.4...v1.2.5) (2019-12-08)
 
 ### Bug Fixes
