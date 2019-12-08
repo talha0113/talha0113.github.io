@@ -78,8 +78,8 @@ jobs:
           name: drop
           path: dist/resume/resume.zip        
 
-      - name: release
-        id: release
+      - name: semantic-release
+        id: semantic-release
         if: github.ref == 'refs/heads/develop'
         shell: pwsh
         run: |
@@ -90,4 +90,14 @@ jobs:
         if: github.ref == 'refs/heads/develop'
         shell: pwsh
         run: |
-          ${{ steps.release.outputs.release_tag }}    
+          ${{ steps.semantic-release.outputs.release_tag }}    
+
+      - name: github-release
+        id: github-release
+        if: ${{ steps.semantic-release.outputs.release_tag }} != null
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ steps.semantic-release.outputs.release_tag }}
+          draft: false
+          prerelease: false
