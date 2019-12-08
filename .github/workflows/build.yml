@@ -85,13 +85,6 @@ jobs:
         run: |
           npm run release
           
-      - name: display
-        id: display
-        if: github.ref == 'refs/heads/develop'
-        shell: pwsh
-        run: |
-          ${{ steps.semantic-release.outputs.release_tag }}    
-
       - name: github-release
         id: github-release
         if: steps.semantic-release.outputs.release_tag != null
