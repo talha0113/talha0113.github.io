@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/talha0113/talha0113.github.io/compare/v1.2.7...v1.3.0) (2019-12-08)
+
+### Bug Fixes
+
+- **workflow:** upload release asset version number ([3fe5bb2](https://github.com/talha0113/talha0113.github.io/commit/3fe5bb2))
+
+### Features
+
+- **workflow:** attach release assets ([4a44d9b](https://github.com/talha0113/talha0113.github.io/commit/4a44d9b))
+
 ## [1.2.7](https://github.com/talha0113/talha0113.github.io/compare/v1.2.6...v1.2.7) (2019-12-08)
 
 ### Bug Fixes
