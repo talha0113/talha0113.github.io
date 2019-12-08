@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/talha0113/talha0113.github.io/compare/v1.3.1...v1.3.2) (2019-12-08)
+
+### Bug Fixes
+
+- **release:** output release tag ([62dee47](https://github.com/talha0113/talha0113.github.io/commit/62dee47))
+
 ## [1.3.1](https://github.com/talha0113/talha0113.github.io/compare/v1.3.0...v1.3.1) (2019-12-08)
 
 ### Bug Fixes
