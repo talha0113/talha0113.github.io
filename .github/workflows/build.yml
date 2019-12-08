@@ -98,7 +98,7 @@ jobs:
       - name: release-asset
         id: release-asset
         if: steps.semantic-release.outputs.release_tag != null
-        uses: actions/upload-release-asset@v1
+        uses: actions/upload-release-asset@v1.0.1
         with:
           upload_url: ${{ steps.hithub-release.outputs.upload_url }}
           asset_path: ./dist/resume/resume.zip
