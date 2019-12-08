@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/talha0113/talha0113.github.io/compare/v1.2.6...v1.2.7) (2019-12-08)
+
+### Bug Fixes
+
+- **workflow:** remove display ([e53e375](https://github.com/talha0113/talha0113.github.io/commit/e53e375))
+- **workflow:** remove display ([ca4355c](https://github.com/talha0113/talha0113.github.io/commit/ca4355c))
+
 ## [1.2.6](https://github.com/talha0113/talha0113.github.io/compare/v1.2.5...v1.2.6) (2019-12-08)
 
 ### Bug Fixes
