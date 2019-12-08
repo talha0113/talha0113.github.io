@@ -90,8 +90,8 @@ jobs:
         if: steps.semantic-release.outputs.release_tag != null
         uses: actions/create-release@v1
         with:
-          tag_name: v${{ steps.semantic-release.outputs.release_tag }}
-          release_name: Release v${{ steps.semantic-release.outputs.release_tag }}
+          tag_name: ${{ steps.semantic-release.outputs.release_tag }}
+          release_name: Release ${{ steps.semantic-release.outputs.release_tag }}
           draft: false
           prerelease: false
 
