@@ -1,3 +1,9 @@
+## [1.4.5](https://github.com/talha0113/talha0113.github.io/compare/v1.4.4...v1.4.5) (2019-12-09)
+
+### Bug Fixes
+
+- **workflow:** correct replacement ([1e7c117](https://github.com/talha0113/talha0113.github.io/commit/1e7c117))
+
 ## [1.4.4](https://github.com/talha0113/talha0113.github.io/compare/v1.4.3...v1.4.4) (2019-12-09)
 
 ### Bug Fixes
