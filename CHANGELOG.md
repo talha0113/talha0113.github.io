@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/talha0113/talha0113.github.io/compare/v1.4.0...v1.4.1) (2019-12-09)
+
+### Bug Fixes
+
+- **workflow:** variable switch ([5671905](https://github.com/talha0113/talha0113.github.io/commit/5671905))
+
 # [1.4.0](https://github.com/talha0113/talha0113.github.io/compare/v1.3.2...v1.4.0) (2019-12-09)
 
 ### Features
