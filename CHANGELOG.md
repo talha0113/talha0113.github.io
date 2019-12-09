@@ -1,3 +1,9 @@
+## [1.4.4](https://github.com/talha0113/talha0113.github.io/compare/v1.4.3...v1.4.4) (2019-12-09)
+
+### Bug Fixes
+
+- **workflow:** correct url building ([b9d07dd](https://github.com/talha0113/talha0113.github.io/commit/b9d07dd))
+
 ## [1.4.3](https://github.com/talha0113/talha0113.github.io/compare/v1.4.2...v1.4.3) (2019-12-09)
 
 ### Bug Fixes
