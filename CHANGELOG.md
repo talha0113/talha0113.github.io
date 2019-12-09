@@ -1,3 +1,9 @@
+## [1.4.2](https://github.com/talha0113/talha0113.github.io/compare/v1.4.1...v1.4.2) (2019-12-09)
+
+### Bug Fixes
+
+- **workflow:** single quotes ([f76420c](https://github.com/talha0113/talha0113.github.io/commit/f76420c))
+
 ## [1.4.1](https://github.com/talha0113/talha0113.github.io/compare/v1.4.0...v1.4.1) (2019-12-09)
 
 ### Bug Fixes
