@@ -16,11 +16,12 @@ jobs:
         id: download
         shell: pwsh 
         run: |
-          $releaseUrl = "https://api.github.com/repos/$env:GITHUB_REPOSITORY/releases/tags/$env:GITHUB_REF"
-          Write-Host ("ReleaseUrl: $releaseUrl")
+          $releaseUrl = "https://api.github.com/repos/$env:GITHUB_REPOSITORY/releases/$($env:GITHUB_REF.Replace('refs/'))"
           $gitHubRelease = (Invoke-WebRequest -Uri $releaseUrl -Method Get -ContentType 'application/json' -Headers @{"Authorization" = "Bearer $env:GITHUB_TOKEN"}).Content | ConvertFrom-Json
-          Invoke-WebRequest -Uri $gitHubRelease.assets[0].browser_download_url -OutFile $gitHubRelease.assets[0].name
-          Expand-Archive -LiteralPath $gitHubRelease.assets[0].name -DestinationPath $gitHubRelease.assets[0].name.Split(".")[0]
+          $gitHubRelease.assets | % {
+            Invoke-WebRequest -Uri $_.browser_download_url -OutFile $_.name
+            Expand-Archive -LiteralPath $_.name -DestinationPath $_.name.Split(".")[0]
+          }
 
       - name: deploy
         id: deploy
