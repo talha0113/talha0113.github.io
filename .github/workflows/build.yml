@@ -38,7 +38,6 @@ jobs:
           path: ${{ steps.npm-cache.outputs.npm_cache_directory }} # ~/.npm # Cache Examples: https://github.com/actions/cache/blob/master/examples.md
           key: npm-cache-${{ runner.OS }}-${{ hashFiles(format('{0}{1}', github.workspace, '/package-lock.json')) }}
           restore-keys: |
-            npm-cache-${{ runner.OS }}-build
             npm-cache-${{ runner.OS }}-
             npm-cache-
       - name: ci
