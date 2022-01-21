@@ -1,0 +1,9 @@
+<div class="section" *ngIf="(data$ | async) as items">
+  <div class="container">
+    <div class="button-container">
+      <a *ngFor="let item of items" class="btn btn-default btn-round btn-lg btn-icon" [attr.href]="item.url" target="_blank" [attr.title]="item.title">
+        <i [ngClass]="'fa fa-' + item.type"></i>
+      </a>
+    </div>
+  </div>
+</div>

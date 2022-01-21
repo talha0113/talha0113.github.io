@@ -1,0 +1,19 @@
+<div *ngIf="(data$ | async) as data" class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image">
+            <a>
+              <img [attr.src]="data.image" />
+            </a>
+          </div>
+          <div class="h2 title">{{ data.name }}</div>
+          <p class="category text-white">{{ data.title }}</p>
+        </div>
+      </div>
+      <app-social></app-social>
+    </div>
+  </div>
+</div>
